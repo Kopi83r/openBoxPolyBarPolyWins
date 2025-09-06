@@ -3,11 +3,11 @@
 
 # SETTINGS {{{ ---
 active_text_color="#FFFFFFFF"  
-active_bg="#373B41"
+active_bg="#aa000000"
 #active_underline="#8ABEB7"
 
 #inactive_text_color="#707880"
-inactive_bg="#00000000"
+inactive_bg="#aa000000 "
 #inactive_underline=
 
 separator="·"
@@ -239,3 +239,4 @@ generate_window_list() {
 # --- }}}
 
 main "$@"
+
