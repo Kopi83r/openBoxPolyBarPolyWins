@@ -25,5 +25,8 @@ fc-cache -fv
 fc-list | grep -i "nerd”
 
 
-**Openbox themes**
-https://github.com/archcraft-os/archcraft-openbox-themes
+**Needed aps**
+
+
+sudo apt install mc screen neovim git lightdm lightdm-gtk-greeter openbox xorg terminator firefox-esr lxappearance polybar thunar xrdp wmctrl htop xrdp rofi xcape
+
