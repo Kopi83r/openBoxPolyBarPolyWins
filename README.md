@@ -1,10 +1,10 @@
 # My Linux Config
-Config files for polybar and Openbox litght linux. Zentile is used for tiling. 
-Openbox is installed by script from https://github.com/leomarcov/debian-openbox.
+**Config files for polybar and Openbox litght linux. Zentile is used for tiling. 
+Openbox is installed by script from https://github.com/leomarcov/debian-openbox.**
 
-Polywins script is used for taskbar part of polybar. https://github.com/uniquepointer/polywins
+**Polywins script is used for taskbar part of polybar.** https://github.com/uniquepointer/polywins
 
-Font setup for polybar icons:
+**Font setup for polybar icons:**
 
 mkdir -p ~/.local/share/fonts
 
@@ -19,5 +19,5 @@ fc-cache -fv
 fc-list | grep -i "nerd”
 
 
-Openbox themes
+**Openbox themes**
 https://github.com/archcraft-os/archcraft-openbox-themes
