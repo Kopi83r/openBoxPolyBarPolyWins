@@ -20,4 +20,4 @@ fc-list | grep -i "nerd”
 
 
 Openbox themes
-https://github.com/archcraft-os/archcraft-openbox-themes?utm_source=chatgpt.com
+https://github.com/archcraft-os/archcraft-openbox-themes
