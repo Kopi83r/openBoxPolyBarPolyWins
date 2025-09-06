@@ -5,7 +5,7 @@
 https://github.com/blrsn/zentile
 
 
-Openbox is installed by script from https://github.com/leomarcov/debian-openbox.**
+**Openbox is installed by script from ** https://github.com/leomarcov/debian-openbox.
 
 **Polywins script is used for taskbar part of polybar.** https://github.com/uniquepointer/polywins
 
