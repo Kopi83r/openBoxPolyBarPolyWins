@@ -6,8 +6,14 @@ Polywins script is used for taskbar part of polybar. https://github.com/uniquepo
 
 Font setup for polybar icons:
 mkdir -p ~/.local/share/fonts
+
 cd ~/.local/share/fonts
+
 wget https://github.com/ryanoasis/nerd-fonts/releases/latest/download/JetBrainsMono.zip
+
 unzip JetBrainsMono.zip -d JetBrainsMono
+
 fc-cache -fv
+
 fc-list | grep -i "nerd”
+
