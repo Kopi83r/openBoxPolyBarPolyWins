@@ -5,7 +5,7 @@
 
 
 
-**Config files for polybar and Openbox litght linux.**
+**Config files for polybar and Openbox light linux.**
 
 **Zentile is used for tiling.**
 https://github.com/blrsn/zentile
@@ -30,7 +30,7 @@ fc-cache -fv
 fc-list | grep -i "nerd”
 
 
-**Needed aps when installing without debian-openbox scripts**
+**Needed apps when installing without debian-openbox scripts**
 
 
 sudo apt install mc screen neovim git lightdm lightdm-gtk-greeter arandr openbox xorg terminator firefox-esr lxappearance polybar thunar xrdp wmctrl htop xrdp rofi xcape gedit inxi hwinfo dfc s-tui compton
