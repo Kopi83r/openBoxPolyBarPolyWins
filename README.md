@@ -1,4 +1,10 @@
 # My Linux Config
+
+![Screenshot](images/Screenshot1.png)
+![Screenshot](images/Screenshot2.png)
+
+
+
 **Config files for polybar and Openbox litght linux.**
 
 **Zentile is used for tiling.**
