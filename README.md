@@ -1,5 +1,6 @@
 # My Linux Config
-**Config files for polybar and Openbox litght linux. 
+**Config files for polybar and Openbox litght linux. **
+
 **Zentile is used for tiling. **
 
 https://github.com/blrsn/zentile
