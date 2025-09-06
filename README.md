@@ -5,6 +5,7 @@ Openbox is installed by script from https://github.com/leomarcov/debian-openbox.
 Polywins script is used for taskbar part of polybar. https://github.com/uniquepointer/polywins
 
 Font setup for polybar icons:
+
 mkdir -p ~/.local/share/fonts
 
 cd ~/.local/share/fonts
