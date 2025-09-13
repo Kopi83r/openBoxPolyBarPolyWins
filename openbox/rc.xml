@@ -229,11 +229,11 @@
         <!-- #DEBIAN-OPENBOX-autosnap -->
         <x>1%</x>
         <!-- #DEBIAN-OPENBOX-autosnap -->
-        <y>1%</y>
+        <y>0%</y>
         <!-- #DEBIAN-OPENBOX-autosnap -->
         <width>49%</width>
         <!-- #DEBIAN-OPENBOX-autosnap -->
-        <height>97%</height>
+        <height>99%</height>
         <!-- #DEBIAN-OPENBOX-autosnap -->
       </action>
       <!-- #DEBIAN-OPENBOX-autosnap -->
@@ -247,11 +247,11 @@
         <!-- #DEBIAN-OPENBOX-autosnap -->
         <x>51%</x>
         <!-- #DEBIAN-OPENBOX-autosnap -->
-        <y>1%</y>
+        <y>0%</y>
         <!-- #DEBIAN-OPENBOX-autosnap -->
-        <width>49%</width>
+        <width>48%</width>
         <!-- #DEBIAN-OPENBOX-autosnap -->
-        <height>97%</height>
+        <height>99%</height>
         <!-- #DEBIAN-OPENBOX-autosnap -->
       </action>
       <!-- #DEBIAN-OPENBOX-autosnap -->
@@ -560,22 +560,22 @@
       </action>
     </keybind>
 
-<keybind key="W-Shift-1">
+<keybind key="A-Shift-1">
   <action name="SendToDesktop">
     <desktop>1</desktop>
   </action>
 </keybind>
-<keybind key="W-Shift-2">
+<keybind key="A-Shift-2">
   <action name="SendToDesktop">
     <desktop>2</desktop>
   </action>
 </keybind>
-<keybind key="W-Shift-3">
+<keybind key="A-Shift-3">
   <action name="SendToDesktop">
     <desktop>3</desktop>
   </action>
 </keybind>
-<keybind key="W-Shift-4">
+<keybind key="A-Shift-4">
   <action name="SendToDesktop">
     <desktop>4</desktop>
   </action>
@@ -702,22 +702,22 @@
       </action>
     </keybind>
     <!-- Keybindings for window switching with the arrow keys -->
-    <keybind key="W-S-Right">
+    <keybind key="A-S-Right">
       <action name="DirectionalCycleWindows">
         <direction>right</direction>
       </action>
     </keybind>
-    <keybind key="W-S-Left">
+    <keybind key="A-S-Left">
       <action name="DirectionalCycleWindows">
         <direction>left</direction>
       </action>
     </keybind>
-    <keybind key="W-S-Up">
+    <keybind key="A-S-Up">
       <action name="DirectionalCycleWindows">
         <direction>up</direction>
       </action>
     </keybind>
-    <keybind key="W-S-Down">
+    <keybind key="A-S-Down">
       <action name="DirectionalCycleWindows">
         <direction>down</direction>
       </action>
