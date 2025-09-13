@@ -40,7 +40,7 @@
                     'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>Triste-Orange</name>
+    <name>Velnias</name>
     <titleLayout>DSLIMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -52,7 +52,7 @@
       S: shade (roll up/down)
       D: omnipresent (on all desktops).
   -->
-    <keepBorder>yes</keepBorder>
+    <keepBorder>no</keepBorder>
     <animateIconify>no</animateIconify>
     <font place="ActiveWindow">
       <name>Sans</name>
@@ -840,6 +840,7 @@
     <keybind key="A-m">
       <action name="Move"/>
     </keybind>
+<!--			
     <keybind key="A-Up">
       <action name="Execute">
         <command>xte 'keyup Alt_L' 'key Page_Up'</command>
@@ -859,6 +860,8 @@
       <action name="Execute">
         <command>xte 'keyup Alt_L' 'key End'</command>
       </action>
+
+      -->
     </keybind>
   </keyboard>
   <mouse>
