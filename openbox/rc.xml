@@ -191,19 +191,19 @@
       <!-- #DEBIAN-OPENBOX-autosnap -->
     </keybind>
     <!-- #DEBIAN-OPENBOX-autosnap -->
-    <keybind key="W-KP_Add">
+    <keybind key="W-KP_1">
       <!-- #DEBIAN-OPENBOX-autosnap -->
       <action name="Maximize"/>
       <!-- #DEBIAN-OPENBOX-autosnap -->
     </keybind>
     <!-- #DEBIAN-OPENBOX-autosnap -->
-    <keybind key="W-KP_Subtract">
+    <keybind key="A-KP_Subtract">
       <!-- #DEBIAN-OPENBOX-autosnap -->
       <action name="UnmaximizeFull"/>
       <!-- #DEBIAN-OPENBOX-autosnap -->
     </keybind>
     <!-- #DEBIAN-OPENBOX-autosnap -->
-    <keybind key="W-KP_Home">
+    <keybind key="W-A-KP_Home">
       <!-- #DEBIAN-OPENBOX-autosnap -->
       <action name="UnmaximizeFull"/>
       <!-- #DEBIAN-OPENBOX-autosnap -->
@@ -221,7 +221,7 @@
       <!-- #DEBIAN-OPENBOX-autosnap -->
     </keybind>
     <!-- #DEBIAN-OPENBOX-autosnap -->
-    <keybind key="W-F7">
+    <keybind key="W-A-Left">
       <!-- #DEBIAN-OPENBOX-autosnap -->
       <action name="UnmaximizeFull"/>
       <!-- #DEBIAN-OPENBOX-autosnap -->
@@ -229,7 +229,7 @@
         <!-- #DEBIAN-OPENBOX-autosnap -->
         <x>1%</x>
         <!-- #DEBIAN-OPENBOX-autosnap -->
-        <y>2%</y>
+        <y>1%</y>
         <!-- #DEBIAN-OPENBOX-autosnap -->
         <width>49%</width>
         <!-- #DEBIAN-OPENBOX-autosnap -->
@@ -239,37 +239,37 @@
       <!-- #DEBIAN-OPENBOX-autosnap -->
     </keybind>
     <!-- #DEBIAN-OPENBOX-autosnap -->
-    <keybind key="W-KP_Up">
+    <keybind key="W-A-Right">
       <!-- #DEBIAN-OPENBOX-autosnap -->
       <action name="UnmaximizeFull"/>
       <!-- #DEBIAN-OPENBOX-autosnap -->
       <action name="MoveResizeTo">
         <!-- #DEBIAN-OPENBOX-autosnap -->
-        <x>0</x>
+        <x>51%</x>
         <!-- #DEBIAN-OPENBOX-autosnap -->
-        <y>0</y>
+        <y>1%</y>
         <!-- #DEBIAN-OPENBOX-autosnap -->
-        <width>100%</width>
+        <width>49%</width>
         <!-- #DEBIAN-OPENBOX-autosnap -->
-        <height>50%</height>
+        <height>97%</height>
         <!-- #DEBIAN-OPENBOX-autosnap -->
       </action>
       <!-- #DEBIAN-OPENBOX-autosnap -->
     </keybind>
     <!-- #DEBIAN-OPENBOX-autosnap -->
-    <keybind key="W-F8">
+    <keybind key="W-A-'">
       <!-- #DEBIAN-OPENBOX-autosnap -->
       <action name="UnmaximizeFull"/>
       <!-- #DEBIAN-OPENBOX-autosnap -->
       <action name="MoveResizeTo">
         <!-- #DEBIAN-OPENBOX-autosnap -->
-        <x>0</x>
+        <x>1%</x>
         <!-- #DEBIAN-OPENBOX-autosnap -->
-        <y>0</y>
+        <y>1%</y>
         <!-- #DEBIAN-OPENBOX-autosnap -->
-        <width>100%</width>
+        <width>49%</width>
         <!-- #DEBIAN-OPENBOX-autosnap -->
-        <height>50%</height>
+        <height>49%</height>
         <!-- #DEBIAN-OPENBOX-autosnap -->
       </action>
       <!-- #DEBIAN-OPENBOX-autosnap -->
@@ -311,7 +311,7 @@
       <!-- #DEBIAN-OPENBOX-autosnap -->
     </keybind>
     <!-- #DEBIAN-OPENBOX-autosnap -->
-    <keybind key="W-KP_Begin">
+    <keybind key="C-A-m">
       <!-- #DEBIAN-OPENBOX-autosnap -->
       <action name="ToggleMaximize"/>
       <!-- #DEBIAN-OPENBOX-autosnap -->
@@ -385,7 +385,7 @@
         <!-- #DEBIAN-OPENBOX-autosnap -->
         <x>-1%</x>
         <!-- #DEBIAN-OPENBOX-autosnap -->
-        <y>2%</y>
+        <y>1%</y>
         <!-- #DEBIAN-OPENBOX-autosnap -->
         <width>49%</width>
         <!-- #DEBIAN-OPENBOX-autosnap -->
@@ -606,28 +606,28 @@
         <wrap>no</wrap>
       </action>
     </keybind>
-    <keybind key="W-1">
+    <keybind key="A-1">
       <action name="GoToDesktop">
         <to>1</to>
       </action>
     </keybind>
-    <keybind key="W-2">
+    <keybind key="A-2">
       <action name="GoToDesktop">
         <to>2</to>
       </action>
     </keybind>
-    <keybind key="W-3">
+    <keybind key="A-3">
       <action name="GoToDesktop">
         <to>3</to>
       </action>
     </keybind>
 
-    <keybind key="W-4">
+    <keybind key="A-4">
       <action name="GoToDesktop">
         <to>4</to>
       </action>
     </keybind>
-    <keybind key="W-5">
+    <keybind key="A-5">
       <action name="GoToDesktop">
         <to>5</to>
       </action>
@@ -641,7 +641,7 @@
     <keybind key="A-F4">
       <action name="Close"/>
     </keybind>
-    <keybind key="W-q">
+    <keybind key="W-A-q">
       <action name="Close"/>
     </keybind>
 
@@ -723,7 +723,7 @@
       </action>
     </keybind>
     <!-- Keybindings for running applications -->
-    <keybind key="W-f">
+    <keybind key="W-A-e">
       <action name="Execute">
         <startupnotify>
           <enabled>false</enabled>
@@ -734,7 +734,7 @@
     </keybind>
 
 
-    <keybind key="W-Return">
+    <keybind key="A-Return">
       <action name="Execute">
         <startupnotify>
           <enabled>false</enabled>
@@ -743,7 +743,7 @@
         <command>x-terminal-emulator</command>
       </action>
     </keybind>
-    <keybind key="W-b">
+    <keybind key="W-A-b">
       <action name="Execute">
         <startupnotify>
           <enabled>true</enabled>
@@ -752,7 +752,7 @@
         <command>x-www-browser</command>
       </action>
     </keybind>
-    <keybind key="W-l">
+    <keybind key="W-A-l">
       <action name="Execute">
         <startupnotify>
           <enabled>false</enabled>
@@ -761,7 +761,7 @@
         <command>x-locker</command>
       </action>
     </keybind>
-    <keybind key="W-e">
+    <keybind key="W-A-t">
       <action name="Execute">
         <startupnotify>
           <enabled>false</enabled>
@@ -770,7 +770,7 @@
         <command>x-text-editor</command>
       </action>
     </keybind>
-    <keybind key="W-h">
+    <keybind key="W-A-h">
       <action name="Execute">
         <startupnotify>
           <enabled>false</enabled>
@@ -804,7 +804,7 @@
         <command>obexit show</command>
       </action>
     </keybind>
-    <keybind key="W-Escape">
+    <keybind key="W-C-A-Escape">
       <action name="Execute">
         <startupnotify>
           <enabled>false</enabled>
@@ -814,19 +814,19 @@
       </action>
     </keybind>
     <!-- A bit of tiling -->
-    <keybind key="W-Right">
+    <keybind key="W-C-Right">
       <action name="GrowToEdgeEast"/>
     </keybind>
-    <keybind key="W-Left">
+    <keybind key="W-C-Left">
       <action name="GrowToEdgeWest"/>
     </keybind>
-    <keybind key="W-Down">
+    <keybind key="W-C-Down">
       <action name="GrowToEdgeSouth"/>
     </keybind>
-    <keybind key="W-Up">
+    <keybind key="W-C-Up">
       <action name="GrowToEdgeNorth"/>
     </keybind>
-    <keybind key="W-A-Left">
+    <keybind key="W-A-C-Left">
       <action name="UnmaximizeFull"/>
       <action name="MaximizeVert"/>
       <action name="MoveResizeTo">
@@ -835,7 +835,7 @@
         <y>0</y>
       </action>
     </keybind>
-    <keybind key="W-A-Right">
+    <keybind key="W-A-C-Right">
       <action name="UnmaximizeFull"/>
       <action name="MaximizeVert"/>
       <action name="MoveResizeTo">
@@ -916,7 +916,7 @@
           <to>previous</to>
         </action>
       </mousebind>
-      <mousebind button="A-Down" action="Click">
+      <mousebind button="A-C-Down" action="Click">
         <action name="GoToDesktop">
           <to>next</to>
         </action>
@@ -1162,7 +1162,7 @@
           <to>previous</to>
         </action>
       </mousebind>
-      <mousebind button="A-Down" action="Click">
+      <mousebind button="A-C-Down" action="Click">
         <action name="GoToDesktop">
           <to>next</to>
         </action>
@@ -1211,7 +1211,7 @@
           <to>previous</to>
         </action>
       </mousebind>
-      <mousebind button="A-Down" action="Click">
+      <mousebind button="A-C-Down" action="Click">
         <action name="GoToDesktop">
           <to>next</to>
         </action>
@@ -1338,3 +1338,4 @@
 -->
   </applications>
 </openbox_config>
+
