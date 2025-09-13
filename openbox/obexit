@@ -1,0 +1,45 @@
+#!/bin/bash
+#
+# A simple exit script for Openbox using YAD (Yet Another Dialog)
+#
+
+yad --width=350 --height=120 \
+    --title="Exit Session" \
+    --window-icon="system-log-out" \
+    --text="<span size='large'><b>What do you want to do?</b></span>" \
+    --buttons-layout=center \
+    --button="<big><b>Cancel</b></big>!application-exit:1" \
+    --button="<big><b>Log Out</b></big>!system-log-out:0" \
+    --button="<big><b>Suspend</b></big>!system-suspend:2" \
+    --button="<big><b>Reboot</b></big>!system-reboot:3" \
+    --button="<big><b>Shutdown</b></big>!system-shutdown:4"
+
+# Get the exit code from YAD
+choice=$?
+
+case $choice in
+    0)
+        # Log Out
+        openbox --exit
+        ;;
+    1)
+        # Cancel
+        exit 0
+        ;;
+    2)
+        # Suspend
+        systemctl suspend
+        ;;
+    3)
+        # Reboot
+        systemctl reboot
+        ;;
+    4)
+        # Shutdown
+        systemctl poweroff
+        ;;
+    *)
+        # Any other exit code (like closing the window) will also cancel.
+        exit 0
+        ;;
+esac

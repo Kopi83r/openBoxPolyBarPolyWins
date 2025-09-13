@@ -448,7 +448,7 @@
         <item label="Exit" icon="/usr/share/icons/openbox-menu/exit.png">
             <action name="Execute">
                 <command>
-                    obexit show
+                    ~/.config/openbox/obexit
                 </command>
             </action>
         </item>

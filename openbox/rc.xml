@@ -40,7 +40,7 @@
                     'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>GoHomeV2-leo</name>
+    <name>Triste-Orange</name>
     <titleLayout>DSLIMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -323,19 +323,19 @@
       <!-- #DEBIAN-OPENBOX-autosnap -->
     </keybind>
     <!-- #DEBIAN-OPENBOX-autosnap -->
-    <keybind key="W-KP_Left">
+    <keybind key="W-A-Up">
       <!-- #DEBIAN-OPENBOX-autosnap -->
       <action name="UnmaximizeFull"/>
       <!-- #DEBIAN-OPENBOX-autosnap -->
       <action name="MoveResizeTo">
         <!-- #DEBIAN-OPENBOX-autosnap -->
-        <x>0</x>
+        <x>1%</x>
         <!-- #DEBIAN-OPENBOX-autosnap -->
-        <y>0</y>
+        <y>1%</y>
         <!-- #DEBIAN-OPENBOX-autosnap -->
-        <width>50%</width>
+        <width>98%</width>
         <!-- #DEBIAN-OPENBOX-autosnap -->
-        <height>100%</height>
+        <height>99%</height>
         <!-- #DEBIAN-OPENBOX-autosnap -->
       </action>
       <!-- #DEBIAN-OPENBOX-autosnap -->
@@ -559,35 +559,31 @@
         <wrap>no</wrap>
       </action>
     </keybind>
-
-<keybind key="A-Shift-1">
-  <action name="SendToDesktop">
-    <desktop>1</desktop>
-  </action>
-</keybind>
-<keybind key="A-Shift-2">
-  <action name="SendToDesktop">
-    <desktop>2</desktop>
-  </action>
-</keybind>
-<keybind key="A-Shift-3">
-  <action name="SendToDesktop">
-    <desktop>3</desktop>
-  </action>
-</keybind>
-<keybind key="A-Shift-4">
-  <action name="SendToDesktop">
-    <desktop>4</desktop>
-  </action>
-</keybind>
-<keybind key="W-Shift-5">
-  <action name="SendToDesktop">
-    <desktop>5</desktop>
-  </action>
-</keybind>
-
-
-
+    <keybind key="A-Shift-1">
+      <action name="SendToDesktop">
+        <desktop>1</desktop>
+      </action>
+    </keybind>
+    <keybind key="A-Shift-2">
+      <action name="SendToDesktop">
+        <desktop>2</desktop>
+      </action>
+    </keybind>
+    <keybind key="A-Shift-3">
+      <action name="SendToDesktop">
+        <desktop>3</desktop>
+      </action>
+    </keybind>
+    <keybind key="A-Shift-4">
+      <action name="SendToDesktop">
+        <desktop>4</desktop>
+      </action>
+    </keybind>
+    <keybind key="W-Shift-5">
+      <action name="SendToDesktop">
+        <desktop>5</desktop>
+      </action>
+    </keybind>
     <keybind key="S-A-Right">
       <action name="SendToDesktop">
         <to>right</to>
@@ -621,7 +617,6 @@
         <to>3</to>
       </action>
     </keybind>
-
     <keybind key="A-4">
       <action name="GoToDesktop">
         <to>4</to>
@@ -632,19 +627,16 @@
         <to>5</to>
       </action>
     </keybind>
-
     <keybind key="W-d">
       <action name="ToggleShowDesktop"/>
     </keybind>
     <!-- Keybindings for windows -->
-
     <keybind key="A-F4">
       <action name="Close"/>
     </keybind>
     <keybind key="W-A-q">
       <action name="Close"/>
     </keybind>
-
     <keybind key="A-F5">
       <action name="Iconify"/>
     </keybind>
@@ -732,8 +724,6 @@
         <command>x-file-manager</command>
       </action>
     </keybind>
-
-
     <keybind key="A-Return">
       <action name="Execute">
         <startupnotify>
@@ -1338,4 +1328,3 @@
 -->
   </applications>
 </openbox_config>
-
