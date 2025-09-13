@@ -37,3 +37,8 @@ sudo apt install mc screen neovim git lightdm lightdm-gtk-greeter arandr openbox
 
 sudo update-alternatives --install /usr/bin/x-text-editor x-text-editor /usr/bin/gedit 50   
 Command needed to use gedit to edit conf and display some info from menu
+
+
+**Openbox Themes**
+
+https://github.com/addy-dclxvi/openbox-theme-collections
