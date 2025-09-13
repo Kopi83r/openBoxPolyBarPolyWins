@@ -39,6 +39,6 @@ sudo update-alternatives --install /usr/bin/x-text-editor x-text-editor /usr/bin
 Command needed to use gedit to edit conf and display some info from menu
 
 
-**Openbox Themes**
+**Openbox Themes move to /usr/share/themes/Openbox/**
 
 https://github.com/addy-dclxvi/openbox-theme-collections
