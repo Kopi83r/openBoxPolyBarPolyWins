@@ -1,0 +1,8 @@
+# Launch Rofi when Super + Alt are pressed
+# example for setting for a pc to remote to
+# alt + z
+#    rofi -show drun
+
+#for main system win key opens rofi    
+Super_L; @Super_L
+	rofi -show drun
