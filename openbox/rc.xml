@@ -860,10 +860,9 @@
       <action name="Execute">
         <command>xte 'keyup Alt_L' 'key End'</command>
       </action>
-
-      -->
     </keybind>
-  </keyboard>
+-->
+</keyboard>
   <mouse>
     <dragThreshold>8</dragThreshold>
     <!-- number of pixels the mouse must move before a drag begins -->
