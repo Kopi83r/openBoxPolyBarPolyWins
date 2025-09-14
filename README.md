@@ -29,11 +29,11 @@ fc-cache -fv
 
 fc-list | grep -i "nerd”
 
-
+**sxhkd is used for win key to open rofi menu**
 **Needed apps when installing without debian-openbox scripts**
 
 
-sudo apt install mc screen neovim git lightdm lightdm-gtk-greeter arandr openbox xorg terminator firefox-esr lxappearance polybar thunar xrdp wmctrl htop xrdp rofi xcape gedit inxi hwinfo dfc s-tui compton
+sudo apt install mc screen neovim git lightdm lightdm-gtk-greeter arandr openbox xorg terminator firefox-esr lxappearance polybar thunar xrdp wmctrl htop xrdp rofi xcape gedit inxi hwinfo dfc s-tui compton sxhkd
 
 sudo update-alternatives --install /usr/bin/x-text-editor x-text-editor /usr/bin/gedit 50   
 Command needed to use gedit to edit conf and display some info from menu
