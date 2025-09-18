@@ -878,9 +878,10 @@
        switching due to hitting the edge of the screen -->
     <context name="Frame">
       <!-- DEBIAN-OPENBOX-mouse-button-close-window -->
+     <!-- DEBIAN-OPENBOX-mouse-button-close-window disabled
       <mousebind button="Button7" action="Press">
         <action name="Close"/>
-      </mousebind>
+</mousebind> -->
       <mousebind button="A-Left" action="Press">
         <action name="Focus"/>
         <action name="Raise"/>
@@ -936,6 +937,9 @@
       </mousebind>
     </context>
     <context name="Titlebar">
+      <mousebind button="Left" action="Drag">
+         <action name="Move"/>
+      </mousebind>
       <mousebind button="Middle" action="Click">
         <!-- #DEBIAN-OPENBOX-autosnap -->
         <action name="Focus"/>
