@@ -40,3 +40,4 @@ nitrogen --restore &												# Set wallpaper
 ~/.config/conky/start-lcc.sh &										# Show Openbox welcome
 /usr/lib/xdg-desktop-portal-gtk &
 sxhkd &
+connman-gtk &
