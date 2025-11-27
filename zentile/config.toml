@@ -12,12 +12,12 @@ proportion = 0.1
 # example: Control-Shift-t has two modifiers and one key.
 # You can view which keys activate which modifier using the 'xmodmap' program.
 # Key symbols can be found by pressing keys using the 'xev' program
-
+# Mod4 - win key, mod1 - alt
 # Tile the current workspace.
-tile = "Control-Shift-z"
+tile = "Mod4-mod1-1"
 
 # Untile the current workspace.
-untile = "Control-Shift-x"
+untile = "Mod4-mod1-2"
 
 # Make the active window as master.
 make_active_window_master = "Control-Shift-m"
