@@ -41,3 +41,4 @@ nitrogen --restore &												# Set wallpaper
 /usr/lib/xdg-desktop-portal-gtk &
 sxhkd &
 connman-gtk &
+zentile &
