@@ -33,7 +33,7 @@ fc-list | grep -i "nerd”
 **Needed apps when installing without debian-openbox scripts**
 
 
-sudo apt install mc screen neovim git lightdm lightdm-gtk-greeter arandr openbox xorg terminator firefox-esr lxappearance polybar thunar xrdp wmctrl htop xrdp rofi xcape gedit inxi hwinfo dfc s-tui compton sxhkd connman connman-gtk picom variety feh
+sudo apt install mc screen neovim git lightdm lightdm-gtk-greeter arandr openbox xorg terminator firefox-esr lxappearance polybar thunar xrdp wmctrl htop xrdp rofi xcape gedit inxi hwinfo dfc s-tui compton sxhkd connman connman-gtk picom variety nitrogen
 
 sudo update-alternatives --install /usr/bin/x-text-editor x-text-editor /usr/bin/gedit 50   
 Command needed to use gedit to edit conf and display some info from menu
@@ -42,5 +42,10 @@ Command needed to use gedit to edit conf and display some info from menu
 **Openbox Themes move to /usr/share/themes/**  use them through obconf
 
 https://github.com/addy-dclxvi/openbox-theme-collections 
+
+Add extract here to thunar:
+sudo apt install thunar-archive-plugin
+sudo apt install file-roller p7zip-full p7zip-rar unrar unzip
+thunar -q
 
 todo zentile config from my desktop
