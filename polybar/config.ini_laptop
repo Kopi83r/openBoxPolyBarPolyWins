@@ -45,7 +45,7 @@ font-1 = "Font Awesome 6 Free Solid:style=Solid:size=12;2"
 
 # Removed broken eth-name module; using clean integrated eth layout instead
 modules-left = xworkspaces polywins 
-modules-right = filesystem memory cpu eth tray pulseaudio xkeyboard  date
+modules-right = filesystem memory cpu battery tray pulseaudio xkeyboard  date
 modules-center = 
 
 cursor-click = pointer
@@ -118,24 +118,37 @@ type = internal/cpu
 interval = 2
 label =  %percentage:2%%
 
-[network-base]
-type = internal/network
-interval = 5
-format-connected = <label-connected>
-format-disconnected = <label-disconnected>
-label-disconnected =  wlp3s0 disconnected
-label-disconnected-foreground = ${colors.alert}
+[module/battery]
+type = internal/battery
 
-[module/eth]
-inherit = network-base
-# Bind directly to your wireless card
-interface = wlp3s0
+; Updated to match your exact hardware path
+battery = BAT0
+adapter = ADP1
 
-# Default small view (Shows:  wlp3s)
-label-connected =  %ifname:0:5%
+full-at = 99
+low-at = 15
 
-# Expanded view on left-click (Shows:  wlp3s0 (192.168.X.X))
-label-connected-alt =  %ifname% (%local_ip%)
+poll-interval = 5
+
+; Formatting when charging
+format-charging = <label-charging>
+label-charging =  %percentage%%
+label-charging-foreground = #A3BE8C
+
+; Formatting when discharging (on battery)
+format-discharging = <label-discharging>
+label-discharging =  %percentage%%
+label-discharging-foreground = ${colors.foreground}
+
+; Formatting when full
+format-full = <label-full>
+label-full =  %percentage%%
+label-full-foreground = ${colors.foreground}
+
+; Formatting when low
+format-low = <label-low>
+label-low =  %percentage%%!!
+label-low-foreground = ${colors.alert}
 
 [module/date]
 type = internal/date
