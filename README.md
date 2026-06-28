@@ -33,15 +33,13 @@ fc-list | grep -i "nerd”
 **Needed apps when installing without debian-openbox scripts**
 
 
-sudo apt install mc screen neovim git lightdm lightdm-gtk-greeter arandr openbox xorg terminator firefox-esr lxappearance polybar thunar xrdp wmctrl htop xrdp rofi xcape gedit inxi hwinfo dfc s-tui compton sxhkd connman connman-gtk picom variety nitrogen
-
-nm-applet -alternative for network applet
+sudo apt install mc screen neovim git lightdm lightdm-gtk-greeter arandr openbox xorg terminator firefox-esr lxappearance polybar thunar xrdp wmctrl htop xrdp rofi xcape gedit inxi hwinfo dfc s-tui compton sxhkd picom variety nitrogen
 
 sudo update-alternatives --install /usr/bin/x-text-editor x-text-editor /usr/bin/gedit 50   
 Command needed to use gedit to edit conf and display some info from menu
 
 
-**Openbox Themes move to /usr/share/themes/**  use them through obconf
+**Openbox Themes move to /usr/share/themes/**  use theme through obconf
 
 https://github.com/addy-dclxvi/openbox-theme-collections 
 
