@@ -49,3 +49,5 @@ sudo apt install file-roller p7zip-full p7zip-rar unrar unzip
 thunar -q
 
 todo zentile config from my desktop
+Some autostart apps are in /etc/xdg/autostart and ~/.config/autostart/ just remove .desktop from there to disable it.
+
