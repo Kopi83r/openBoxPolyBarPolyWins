@@ -29,7 +29,7 @@ fi
 #### START APPLICATIONS ###############################################################################
 #tint2-session &			# Start tint2
 polybar &			# Start polybar 
-compton &			# Start compositor
+picom &			# Start compositor
 #(sleep 2; conky-session) &	# Start Conky
 (sleep 1; ~/.config/openbox/zentile) &	# Start Conky
 pnmixer &															# Start volume control
@@ -38,6 +38,6 @@ xfce4-clipman &														# Start clipboard manager
 nitrogen --restore &												# Set wallpaper
 ~/.config/openbox/welcome &											# Show Openbox welcome
 /usr/lib/xdg-desktop-portal-gtk &
-sxhkd &
+#sxhkd &
 #connman-gtk &
 conky &
